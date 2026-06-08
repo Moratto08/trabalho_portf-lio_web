@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,6 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
   <!-- Cabeçalho -->
@@ -34,10 +32,7 @@
       <h2>Implementação de Media Queries</h2>
 
       <p>
-        A implementação de Media Queries é uma técnica do CSS utilizada para tornar os sites responsivos em diferentes
-        tamanhos de tela. Com ela, é possível adaptar o layout para celulares, tablets e computadores, melhorando a
-        experiência do usuário. As Media Queries permitem alterar estilos como tamanho, cores, posicionamento e
-        organização dos elementos conforme a largura da tela do dispositivo.
+       A implementação de Media Queries é uma técnica do CSS utilizada para tornar os sites responsivos em diferentes tamanhos de tela. Com ela, é possível adaptar o layout para celulares, tablets e computadores, melhorando a experiência do usuário. As Media Queries permitem alterar estilos como tamanho, cores, posicionamento e organização dos elementos conforme a largura da tela do dispositivo.
       </p>
 
       <h3>Exemplo:</h3>
@@ -56,11 +51,7 @@
       <h2>Layouts Flexíveis (Flexbox)</h2>
 
       <p>
-        Layouts Flexíveis, conhecidos como Flexbox, são uma ferramenta do CSS utilizada para organizar e alinhar
-        elementos de forma prática e responsiva. Com o Flexbox, é possível distribuir espaços automaticamente, alinhar
-        itens horizontalmente ou verticalmente e criar layouts modernos com mais facilidade. Essa técnica é muito
-        utilizada no desenvolvimento web para menus, galerias, cards e áreas de conteúdo adaptáveis para diferentes
-        tamanhos de tela.
+        Layouts Flexíveis, conhecidos como Flexbox, são uma ferramenta do CSS utilizada para organizar e alinhar elementos de forma prática e responsiva. Com o Flexbox, é possível distribuir espaços automaticamente, alinhar itens horizontalmente ou verticalmente e criar layouts modernos com mais facilidade. Essa técnica é muito utilizada no desenvolvimento web para menus, galerias, cards e áreas de conteúdo adaptáveis para diferentes tamanhos de tela.
       </p>
 
       <div class="flex-container">
@@ -75,10 +66,7 @@
       <h2>CSS Grid Layout Profissional</h2>
 
       <p>
-        O CSS Grid Layout é uma ferramenta do CSS utilizada para criar layouts organizados em linhas e colunas de forma
-        prática e moderna. Com ele, é possível estruturar páginas com mais controle sobre o posicionamento dos
-        elementos, facilitando a criação de designs responsivos e profissionais. O Grid é muito utilizado para montar
-        galerias, dashboards, áreas de conteúdo e estruturas completas de sites.
+       O CSS Grid Layout é uma ferramenta do CSS utilizada para criar layouts organizados em linhas e colunas de forma prática e moderna. Com ele, é possível estruturar páginas com mais controle sobre o posicionamento dos elementos, facilitando a criação de designs responsivos e profissionais. O Grid é muito utilizado para montar galerias, dashboards, áreas de conteúdo e estruturas completas de sites.
       </p>
 
       <div class="grid-container">
@@ -94,10 +82,7 @@
       <h2>Manipulação do DOM e Eventos</h2>
 
       <p>
-        A Manipulação do DOM e Eventos permite que o JavaScript interaja com os elementos da página em tempo real. Por
-        meio do DOM (Document Object Model), é possível alterar textos, estilos, imagens e outros conteúdos de forma
-        dinâmica. Já os eventos são ações realizadas pelo usuário, como cliques, movimentos do mouse ou preenchimento de
-        campos, que podem acionar funções e tornar o site mais interativo e funcional.
+      A Manipulação do DOM e Eventos permite que o JavaScript interaja com os elementos da página em tempo real. Por meio do DOM (Document Object Model), é possível alterar textos, estilos, imagens e outros conteúdos de forma dinâmica. Já os eventos são ações realizadas pelo usuário, como cliques, movimentos do mouse ou preenchimento de campos, que podem acionar funções e tornar o site mais interativo e funcional.
       </p>
 
       <button onclick="mudarTexto()">
@@ -107,6 +92,30 @@
       <p id="texto">
         Texto original
       </p>
+    </section>
+
+    <!-- Formulário -->
+    <section id="formulario">
+      <h2>Validação de Interface de Formulário</h2>
+
+      <p>
+       A Validação de Interface de Formulário é utilizada para verificar se os dados informados pelo usuário estão corretos antes do envio. Essa prática ajuda a evitar erros, campos vazios e informações inválidas, garantindo maior segurança e qualidade dos dados recebidos. A validação pode ser feita com HTML, CSS e JavaScript, proporcionando uma melhor experiência para o usuário durante o preenchimento do formulário.
+
+      </p>
+
+      <form onsubmit="return validarFormulario()">
+
+        <input
+          type="text"
+          id="nome"
+          placeholder="Digite seu nome"
+        >
+
+        <button type="submit">
+          Enviar
+        </button>
+
+      </form>
     </section>
 
 
@@ -122,5 +131,4 @@
   <script src="script.js"></script>
 
 </body>
-
 </html>
